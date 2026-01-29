@@ -116,7 +116,7 @@ export function Contact() {
           viewport={{ once: true }}
           className="mt-20 pt-12 border-t border-gray-200 text-center text-sm text-gray-500"
         >
-          <p>© 2026 Jose Libardo Rincon N. Systems Engineer specializing in Linux administration and technical support.</p>
+          <p>© 2026 Jose Libardo Rincon Systems Engineer specializing in Linux administration and technical support.</p>
         </motion.div>
       </div>
     </section>

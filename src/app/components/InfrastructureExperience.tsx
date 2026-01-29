@@ -1,5 +1,10 @@
 import { motion } from "motion/react";
-import { Terminal, Settings, Database, Shield } from "lucide-react";
+import {
+  Terminal,
+  Settings,
+  Database,
+  Shield,
+} from "lucide-react";
 
 const architectures = [
   {
@@ -51,9 +56,12 @@ export function InfrastructureExperience() {
           viewport={{ once: true }}
           className="space-y-4 mb-20"
         >
-          <h2 className="text-4xl md:text-5xl tracking-tight">Technical Expertise</h2>
+          <h2 className="text-4xl md:text-5xl tracking-tight">
+            Technical Expertise
+          </h2>
           <p className="text-xl text-gray-600 max-w-3xl">
-            Comprehensive server administration and technical support capabilities
+            Comprehensive server administration and technical
+            support capabilities
           </p>
         </motion.div>
 
@@ -70,15 +78,25 @@ export function InfrastructureExperience() {
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-cyan-50 border border-cyan-200">
-                    <arch.icon className="w-6 h-6 text-cyan-600" strokeWidth={1.5} />
+                    <arch.icon
+                      className="w-6 h-6 text-cyan-600"
+                      strokeWidth={1.5}
+                    />
                   </div>
-                  <h3 className="text-2xl pt-2">{arch.title}</h3>
+                  <h3 className="text-2xl pt-2">
+                    {arch.title}
+                  </h3>
                 </div>
                 <ul className="space-y-3">
                   {arch.details.map((detail) => (
-                    <li key={detail} className="flex items-start gap-3 text-gray-600">
+                    <li
+                      key={detail}
+                      className="flex items-start gap-3 text-gray-600"
+                    >
                       <span className="w-1.5 h-1.5 bg-cyan-500 rounded-full mt-2 flex-shrink-0"></span>
-                      <span className="text-sm leading-relaxed">{detail}</span>
+                      <span className="text-sm leading-relaxed">
+                        {detail}
+                      </span>
                     </li>
                   ))}
                 </ul>

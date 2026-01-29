@@ -26,7 +26,7 @@ export function Hero() {
                 transition={{ delay: 0.3, duration: 0.6 }}
                 className="text-5xl md:text-7xl lg:text-8xl tracking-tight"
               >
-                Jose Libardo Rincon Nieto
+                Jose Libardo Rincon
               </motion.h1>
             </div>
 
